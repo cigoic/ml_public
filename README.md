@@ -44,27 +44,27 @@ Jupyter.notebook.session.delete()
 ### RC Files for BASH, VIM
 ### Git
 
-	* [Git | Gitbook](https://www.gitbook.com/book/zlargon/git-tutorial/details)
+* [Git | Gitbook](https://www.gitbook.com/book/zlargon/git-tutorial/details)
 
 ### R
 
-	* [Install R and Python via Homebrew](http://pacha.hk/2017-07-12_r_and_python_via_homebrew.html)
+* [Install R and Python via Homebrew](http://pacha.hk/2017-07-12_r_and_python_via_homebrew.html)
 
 ### Tensorflow
 
-	* [Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
-	* 2018 [CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
+* [Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
+* 2018 [CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 
 ### Python
 
-	* [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
-	* [matplotlib: RuntimeError: Python is not installed as a framework](https://stackoverflow.com/questions/34977388/matplotlib-runtimeerror-python-is-not-installed-as-a-framework)
+* [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
+* [matplotlib: RuntimeError: Python is not installed as a framework](https://stackoverflow.com/questions/34977388/matplotlib-runtimeerror-python-is-not-installed-as-a-framework)
 
 ### Machine Learning
 
-	* [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
-	* [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
-	* [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
+* [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+* [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
+* [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
 
 ### Case Study
 
