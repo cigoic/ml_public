@@ -45,6 +45,7 @@ For Multiple GPUs, Please use the following commends to specify GPU ID:
 
 ### Tensorflow
 
+	0. tfbuild.sh 檔案，用於自動編譯 Tensorflow source code for Mac/Linux, 去除不支援處理器命令集的警告提示。
 	1. 2018 [CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 
 ### Python
