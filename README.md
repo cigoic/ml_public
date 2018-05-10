@@ -76,3 +76,9 @@ Jupyter.notebook.session.delete()
 	* Melbourne Housing Snapshot
 	* Housing Price: Advanced Regression Techniques
 	* Data Science London + Scikit-learn
+    
+    For Linear Regression
+    
+    * The University of Massachusetts Amherst: www.umass.edu/statdata/statdata.
+    * Kaggle 包含所有類型的大型數據: www.kaggle.com/datasets.
+    * Data.gov is an open data initiative by the US government: https://catalog.data.gov.
