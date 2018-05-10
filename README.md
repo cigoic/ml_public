@@ -5,6 +5,7 @@ Content
 
 Folers/Files:
 
+	src_samples		- 內有各式 Neural Network 模型範例
 	basics_of_ml.ipynb	- 解說機器學習的基本觀念
 	about_tensorflow.ipynb	- 簡述 Tensorflow 基本知識
 	tfbuild.sh 		- 用於自動編譯 Tensorflow source code for Mac, 可去除不支援處理器命令集的警告提示。
@@ -52,8 +53,8 @@ Jupyter.notebook.session.delete()
 
 ### Tensorflow
 
-* [Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
-* 2018 [CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
+* 安裝/編譯：[Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
+* 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 
 ### Python
 
