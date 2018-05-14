@@ -82,3 +82,9 @@ Jupyter.notebook.session.delete()
     * The University of Massachusetts Amherst: www.umass.edu/statdata/statdata.
     * Kaggle 包含所有類型的大型數據: www.kaggle.com/datasets.
     * Data.gov is an open data initiative by the US government: https://catalog.data.gov.
+
+    For Classification
+
+    *  Large Movie Review Dataset: http://mng.bz/60nj
+    *  Sentiment Labelled Sentences Data Set: http://mng.bz/CzSM
+    *  Twitter Sentiment Analysis Dataset: http://mng.bz/2M4d
