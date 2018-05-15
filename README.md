@@ -67,6 +67,14 @@ Jupyter.notebook.session.delete()
 * [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
 
+
+### Study Plan for a beginner
+
+	* Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
+	* Try out Kaggle's [Titanic Competition Python Tutorials](http://www.kaggle.com/c/titanic-gettingStarted)
+	* Linear Regression/Logistic Regression/Classification - Try exapmples from [Machine Learning with Tensorflow ebook](https://github.com/BinRoot/TensorFlow-Book)
+	* Natural Language Problem (NLP) - try out Kaggle's [Bag of Words Meets Bags of Popcorn](https://www.kaggle.com/c/word2vec-nlp-tutorial/overview)
+
 ### Case Study
 
 	@Kaggle
