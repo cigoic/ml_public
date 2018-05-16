@@ -70,29 +70,29 @@ Jupyter.notebook.session.delete()
 
 ### Study Plan for a beginner
 
-	* Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
-	* Try out Kaggle's [Titanic Competition Python Tutorials](http://www.kaggle.com/c/titanic-gettingStarted)
-	* Linear Regression/Logistic Regression/Classification - Try exapmples from [Machine Learning with Tensorflow ebook](https://github.com/BinRoot/TensorFlow-Book)
-	* Natural Language Problem (NLP) - try out Kaggle's [Bag of Words Meets Bags of Popcorn](https://www.kaggle.com/c/word2vec-nlp-tutorial/overview)
+* Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
+* Try out Kaggle's [Titanic Competition Python Tutorials](http://www.kaggle.com/c/titanic-gettingStarted)
+* Linear Regression/Logistic Regression/Classification - Try exapmples from [Machine Learning with Tensorflow ebook](https://github.com/BinRoot/TensorFlow-Book)
+* Natural Language Problem (NLP) - try out Kaggle's [Bag of Words Meets Bags of Popcorn](https://www.kaggle.com/c/word2vec-nlp-tutorial/overview)
 
 ### Case Study
 
-	@Kaggle
+###### @Kaggle
 
-	* Dogs and Cats - binary classification
-	* Titanic
-	* Melbourne Housing Snapshot
-	* Housing Price: Advanced Regression Techniques
-	* Data Science London + Scikit-learn
+* Dogs and Cats - binary classification
+* Titanic
+* Melbourne Housing Snapshot
+* Housing Price: Advanced Regression Techniques
+* Data Science London + Scikit-learn
     
-    For Linear Regression
-    
-    * The University of Massachusetts Amherst: www.umass.edu/statdata/statdata.
-    * Kaggle 包含所有類型的大型數據: www.kaggle.com/datasets.
-    * Data.gov is an open data initiative by the US government: https://catalog.data.gov.
+###### For Linear Regression
 
-    For Classification
+* The University of Massachusetts Amherst: www.umass.edu/statdata/statdata.
+* Kaggle 包含所有類型的大型數據: www.kaggle.com/datasets.
+* Data.gov is an open data initiative by the US government: https://catalog.data.gov.
 
-    *  Large Movie Review Dataset: http://mng.bz/60nj
-    *  Sentiment Labelled Sentences Data Set: http://mng.bz/CzSM
-    *  Twitter Sentiment Analysis Dataset: http://mng.bz/2M4d
+###### For Classification
+
+*  Large Movie Review Dataset: http://mng.bz/60nj
+*  Sentiment Labelled Sentences Data Set: http://mng.bz/CzSM
+*  Twitter Sentiment Analysis Dataset: http://mng.bz/2M4d
