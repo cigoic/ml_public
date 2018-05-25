@@ -63,6 +63,7 @@ Jupyter.notebook.session.delete()
 
 ### Machine Learning
 
+* [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 * [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 * [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
