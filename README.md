@@ -63,13 +63,17 @@ Jupyter.notebook.session.delete()
 
 ### Machine Learning
 
-* [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
+* [Coursera | Machine Learning](https://www.coursera.org/learn/machine-learning)
+* [Coursera | Deep Learning](https://www.coursera.org/specializations/deep-learning)
 * [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 * [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
-
+* [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
+* [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 
 ### Study Plan for a beginner
+
+For Programming Skill:
 
 * Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
 * Try out Kaggle's [Titanic Competition Python Tutorials](http://www.kaggle.com/c/titanic-gettingStarted)
