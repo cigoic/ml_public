@@ -58,6 +58,7 @@ Jupyter.notebook.session.delete()
 
 ### Python
 
+* [Kaggle | Learn Python Challenge series](https://www.kaggle.com/colinmorris/learn-python-challenge-day-5)
 * [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
 * [matplotlib: RuntimeError: Python is not installed as a framework](https://stackoverflow.com/questions/34977388/matplotlib-runtimeerror-python-is-not-installed-as-a-framework)
 
