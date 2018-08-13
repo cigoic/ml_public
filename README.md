@@ -72,6 +72,12 @@ Jupyter.notebook.session.delete()
 * [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
 * [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 
+視覺系輕鬆讀：
+
+* [100 Days of Machine Learning](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+* [簡中版| 100 Days of Machine Learning](https://github.com/MachineLearning100/100-Days-Of-ML-Code)
+* [Andrew Ng's Deep Learning Notes - Unofficial version](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
+
 ### Study Plan for a beginner
 
 For Programming Skill:
