@@ -54,6 +54,7 @@ Jupyter.notebook.session.delete()
 ### Tensorflow
 
 * 安裝/編譯：[Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
+* [Data Flair | Tensorflow Tutorial](https://data-flair.training/blogs/tensorflow-tutorial/)
 * 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 
 ### Python
