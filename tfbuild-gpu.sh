@@ -48,8 +48,8 @@ echo "\$VENV_BIN=$VENV_BIN"
 echo "\$VENV_LIB=$VENV_LIB"
 
 # bazel tf needs these env vars
-export PYTHON_BIN_PATH=$VENV_BIN/python3.6m
-export PYTHON_LIB_PATH=$VENV_LIB/python3.6/site-packages
+export PYTHON_BIN_PATH=$VENV_BIN/python3.7m
+export PYTHON_LIB_PATH=$VENV_LIB/python3.7/site-packages
 #export PYTHON_LIB_PATH=$VENV_LIB/`ls $VENV_LIB | grep python`/site-packages
 
 COPT="--copt=-march=native"
@@ -81,12 +81,13 @@ CUDA_HOME=/usr/local/cuda-${TF_CUDA_VERSION} LD_LIBRARY_PAYH=/usr/local/cuda-${T
 
 if [ "$?" == 0 ]; then
 	TMP=/tmp EN_CUDA="-c cuda" \
+	TF_CUDA_VERSION=9.2 \
 	CUDA_HOME=/usr/local/cuda-${TF_CUDA_VERSION} LD_LIBRARY_PAYH=/usr/local/cuda-${TF_CUDA_VERSION}/lib64:${LD_LIBRARY_PATH} \
 	bazel build -c opt ${EN_CUDA} \
-	--action_env="CUDA_HOME=/usr/local/cuda-${TF_CUDA_VERSION}"
+	--action_env="CUDA_HOME=${CUDA_HOME}" \
 	--action_env="LD_LIBRARY_PATH=${LD_LIBRARY_PATH}" \
 	--action_env="TF_NCCL_VERSION=2.2" \
-	--action_env="NCCL_INSTALL_PATH=/usr/local/cuda-${TF_CUDA_VERSION}/targets/x86_64-linux" \
+	--action_env="NCCL_INSTALL_PATH=${CUDA_HOME}/targets/x86_64-linux" \
 	$COPT -k //tensorflow/tools/pip_package:build_pip_package
 else
 	echo "***** Fail to build Tensorflow! *****"
