@@ -84,10 +84,7 @@ if [ "$?" == 0 ]; then
 	TF_CUDA_VERSION=9.2 \
 	CUDA_HOME=/usr/local/cuda-${TF_CUDA_VERSION} LD_LIBRARY_PAYH=/usr/local/cuda-${TF_CUDA_VERSION}/lib64:${LD_LIBRARY_PATH} \
 	bazel build -c opt ${EN_CUDA} \
-	--action_env="CUDA_HOME=${CUDA_HOME}" \
 	--action_env="LD_LIBRARY_PATH=${LD_LIBRARY_PATH}" \
-	--action_env="TF_NCCL_VERSION=2.2" \
-	--action_env="NCCL_INSTALL_PATH=${CUDA_HOME}/targets/x86_64-linux" \
 	$COPT -k //tensorflow/tools/pip_package:build_pip_package
 else
 	echo "***** Fail to build Tensorflow! *****"
