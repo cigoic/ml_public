@@ -48,8 +48,8 @@ echo "\$VENV_BIN=$VENV_BIN"
 echo "\$VENV_LIB=$VENV_LIB"
 
 # bazel tf needs these env vars
-export PYTHON_BIN_PATH=$VENV_BIN/python3.7m
-export PYTHON_LIB_PATH=$VENV_LIB/python3.7/site-packages
+export PYTHON_BIN_PATH=$VENV_BIN/python3.6m
+export PYTHON_LIB_PATH=$VENV_LIB/python3.6/site-packages
 #export PYTHON_LIB_PATH=$VENV_LIB/`ls $VENV_LIB | grep python`/site-packages
 
 COPT="--copt=-march=native"
