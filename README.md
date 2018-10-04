@@ -56,6 +56,7 @@ Jupyter.notebook.session.delete()
 * 安裝/編譯：[Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
 * [Data Flair | Tensorflow Tutorial](https://data-flair.training/blogs/tensorflow-tutorial/)
 * 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
+* 教學 [Applied Deep Learning with TensorFlow and Google Cloud AI](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781788621601)
 
 ### Python
 
@@ -69,6 +70,7 @@ Jupyter.notebook.session.delete()
 * [Coursera | Deep Learning](https://www.coursera.org/specializations/deep-learning)
 * [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 * [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
+* [Bloomberg 機器學習視訊課程](https://bloomberg.github.io/foml/)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
 * [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
 * [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
@@ -84,6 +86,10 @@ Jupyter.notebook.session.delete()
 For Programming Skill:
 
 * Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
+* [JupyterNotebook - Pandas Tutor](https://github.com/ageron/handson-ml/blob/master/tools_pandas.ipynb)
+* [JupyterNotebook - Numpy Tutor](https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb)
+* [JupyterNotebook - Matplotlib Tutor](https://github.com/ageron/handson-ml/blob/master/tools_matplotlib.ipynb)
+* [JupyterNotebook - Linear Algebra](https://github.com/ageron/handson-ml/blob/master/math_linear_algebra.ipynb)
 * Try out Kaggle's [Titanic Competition Python Tutorials](http://www.kaggle.com/c/titanic-gettingStarted)
 * Linear Regression/Logistic Regression/Classification - Try exapmples from [Machine Learning with Tensorflow ebook](https://github.com/BinRoot/TensorFlow-Book)
 * Natural Language Problem (NLP) - try out Kaggle's [Bag of Words Meets Bags of Popcorn](https://www.kaggle.com/c/word2vec-nlp-tutorial/overview)
