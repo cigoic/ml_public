@@ -58,8 +58,14 @@ Jupyter.notebook.session.delete()
 * 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 * 教學 [Applied Deep Learning with TensorFlow and Google Cloud AI](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781788621601)
 
+###### w/ Scikit-Learn
+
+* Book [O'Reilly | Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do)
+	* [GitHub (相當實用的範例)](https://github.com/ageron/handson-ml)
+
 ### Python
 
+* [Learning Python](http://learnpython.org)
 * [Kaggle | Learn Python Challenge series](https://www.kaggle.com/colinmorris/learn-python-challenge-day-5)
 * [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
 * [matplotlib: RuntimeError: Python is not installed as a framework](https://stackoverflow.com/questions/34977388/matplotlib-runtimeerror-python-is-not-installed-as-a-framework)
@@ -72,10 +78,12 @@ Jupyter.notebook.session.delete()
 * [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
 * [Bloomberg 機器學習視訊課程](https://bloomberg.github.io/foml/)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
-* [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
-* [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 
-視覺系輕鬆讀：
+###### @Google Cloud Platfrom (GCP)
+* [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
+* [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
+
+###### 視覺系輕鬆讀：
 
 * [100 Days of Machine Learning](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
 * [簡中版| 100 Days of Machine Learning](https://github.com/MachineLearning100/100-Days-Of-ML-Code)
