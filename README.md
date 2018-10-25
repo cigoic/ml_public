@@ -9,6 +9,7 @@ Folers/Files:
 	basics_of_ml.ipynb	- 解說機器學習的基本觀念
 	about_tensorflow.ipynb	- 簡述 Tensorflow 基本知識
 	tfbuild.sh 		- 用於自動編譯 Tensorflow source code for Mac, 可去除不支援處理器命令集的警告提示。
+	tfbuild-gpu.sh		- 同上, 編譯 GPU 版 Tensorflow
 
 
 ### GPU Usage Note
@@ -54,6 +55,7 @@ Jupyter.notebook.session.delete()
 ### Tensorflow
 
 * 安裝/編譯：[Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
+* 安裝/編譯 Intel 最佳化版本: [Intel® Optimization for TensorFlow* Installation Guide | Intel® Software](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
 * [Data Flair | Tensorflow Tutorial](https://data-flair.training/blogs/tensorflow-tutorial/)
 * 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 * 教學 [Applied Deep Learning with TensorFlow and Google Cloud AI](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781788621601)
@@ -81,6 +83,7 @@ Jupyter.notebook.session.delete()
 
 ###### @Google Cloud Platfrom (GCP)
 * [2018 Coursera | Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
+* [2018 Coursera | Advanced Machine Learning with TensorFlow on Google Cloud Platform](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)
 * [Coursera | Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
 
 ###### 視覺系輕鬆讀：
