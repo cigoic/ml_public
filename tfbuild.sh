@@ -2,7 +2,7 @@
 
 # https://gist.github.com/venik/9ba962c8b301b0e21f99884cbd35082f
 raw_cpu_flags=`sysctl -a | grep machdep.cpu.features | cut -d ":" -f 2 | tr '[:upper:]' '[:lower:]'`
-COPT="--copt=-march=native"
+COPT="--copt=-march=native --copt=-Wno-sign-compare"
 
 # Intel Optimzed flags
 COPT+=" --config=mkl --copt=-march=sandybridge --copt=-mtune=ivybridge --copt=-O3 --cxxopt=-D_GLIBCXX_USE_CXX11_ABI=0"
@@ -38,22 +38,56 @@ if [ -e /tmp/tensorflow_pkg ]; then
 	rm -rf /tmp/tensorflow_pkg
 fi
 
-#	LDFLAGS+=-L/usr/local/opt/tcl-tk/lib \
-#	CPPFLAGS+=-I/usr/local/opt/tcl-tk/include \
-#	PKG_CONFIG_PATH=/usr/local/opt/tcl-tk/lib/pkgconfig"
+## Test source codes
+#bazel test -c opt -- //tensorflow/... -//tensorflow/compiler/... -//tensorflow/contrib/lite/...
 
+
+./configure
+
+# Build the pip package
+## Bazel build
 if [ -e /usr/local/opt/llvm ]; then
 	echo -e "################################"
 	echo -e "######## Build w/ LLVM #########"
-	echo -e "################################"
-	CC=/usr/local/opt/llvm/bin/clang CXX=/usr/local/opt/llvm/bin/clang++ GXX=/usr/local/opt/llvm/bin/clang++ LD=/usr/local/opt/llvm/bin/llvm-ld AR=/usr/local/opt/llvm/bin/llvm-ar NM=/usr/local/opt/llvm/bin/llvm-nm RANLIB=/usr/local/opt/llvm/bin/llvm-ranlib OBJCOPY=/usr/local/opt/llvm/bin/llvm-objcopy OBJDUMP=/usr/local/opt/llvm/bin/llvm-objdump STRIP=/usr/local/opt/llvm/bin/llvm-strip ./configure
+	PATH2LLVMBIN="/usr/local/opt/llvm/bin"
+	export CC=$PATH2LLVMBIN/clang
+	export CXX=$CC++
+	export GXX=$CXX
+	export LD=$PATH2LLVMBIN/ld.lld
+	export AR=$PATH2LLVMBIN/llvm-ar 
+	export NM=$PATH2LLVMBIN/llvm-nm 
+	export RANLIB=$PATH2LLVMBIN/llvm-ranlib 
+	export OBJCOPY=$PATH2LLVMBIN/llvm-objcopy 
+	export OBJDUMP=$PATH2LLVMBIN/llvm-objdump 
+	export STRIP=$PATH2LLVMBIN/llvm-strip
+	# if [[ $(eval brew info llvm 2>&1 | grep -c "Built from source on") -eq "1" ]]; then
+	export LDFLAGS="-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
+	export CPPFLAGS="-I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1/"
+	# fi
+	#CC=/usr/local/opt/llvm/bin/clang CXX=/usr/local/opt/llvm/bin/clang++ GXX=/usr/local/opt/llvm/bin/clang++ LD=/usr/local/opt/llvm/bin/ld.lld AR=/usr/local/opt/llvm/bin/llvm-ar NM=/usr/local/opt/llvm/bin/llvm-nm RANLIB=/usr/local/opt/llvm/bin/llvm-ranlib OBJCOPY=/usr/local/opt/llvm/bin/llvm-objcopy OBJDUMP=/usr/local/opt/llvm/bin/llvm-objdump STRIP=/usr/local/opt/llvm/bin/llvm-strip ./configure
 
-	CC=/usr/local/opt/llvm/bin/clang CXX=/usr/local/opt/llvm/bin/clang++ GXX=/usr/local/opt/llvm/bin/clang++ LD=/usr/local/opt/llvm/bin/llvm-ld AR=/usr/local/opt/llvm/bin/llvm-ar NM=/usr/local/opt/llvm/bin/llvm-nm RANLIB=/usr/local/opt/llvm/bin/llvm-ranlib OBJCOPY=/usr/local/opt/llvm/bin/llvm-objcopy OBJDUMP=/usr/local/opt/llvm/bin/llvm-objdump STRIP=/usr/local/opt/llvm/bin/llvm-strip bazel build -c opt $COPT -k --verbose_failures //tensorflow/tools/pip_package:build_pip_package
+	#CC=/usr/local/opt/llvm/bin/clang CXX=/usr/local/opt/llvm/bin/clang++ GXX=/usr/local/opt/llvm/bin/clang++ LD=/usr/local/opt/llvm/bin/ld.lld AR=/usr/local/opt/llvm/bin/llvm-ar NM=/usr/local/opt/llvm/bin/llvm-nm RANLIB=/usr/local/opt/llvm/bin/llvm-ranlib OBJCOPY=/usr/local/opt/llvm/bin/llvm-objcopy OBJDUMP=/usr/local/opt/llvm/bin/llvm-objdump STRIP=/usr/local/opt/llvm/bin/llvm-strip 
+	bazel build --config=opt $COPT -k --verbose_failures \
+		--action_env="CC=${CC}" \
+		--action_env="CXX=${CXX}" \
+		--action_env="GXX=${GXX}" \
+		--action_env="LD=${LD}" \
+		--action_env="AR=${AR}" \
+		--action_env="NM=${NM}" \
+		--action_env="RANLIB=${RANLIB}" \
+		--action_env="OBJCOPY=${OBJCOPY}" \
+		--action_env="OBJDUMP=${OBJDUMP}" \
+		--action_env="STRIP=${STRIP}" \
+		--action_env="LDFLAGS=${LDFLAGS}" \
+		--action_env="CPPFLAGS=${CPPFLAGS}" \
+		//tensorflow/tools/pip_package:build_pip_package
 else
-	./configure
+
+	echo -e "################################"
 	bazel build -c opt $COPT -k --verbose_failures //tensorflow/tools/pip_package:build_pip_package
 fi
 
+# Build the .whl package in /tmp/tensorflow_pkg folder
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 
 #pip install --upgrade /tmp/tensorflow_pkg/`ls /tmp/tensorflow_pkg/ | grep tensorflow`
