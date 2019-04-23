@@ -52,13 +52,20 @@ Jupyter.notebook.session.delete()
 
 * [Install R and Python via Homebrew](http://pacha.hk/2017-07-12_r_and_python_via_homebrew.html)
 
-### Tensorflow
+### Tensorflow 2.x
+
+* 教學 [Udacity | Tensorflow free course](https://classroom.udacity.com/courses/ud187)
+* 教學 [Coursera | Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
+* 教學 [Coursera | Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
+
+
+### Tensorflow 1.x
 
 * 安裝/編譯：[Tensorflow from Beginning](https://cigoic.wordpress.com/2017/07/26/tensorflow-from-beginning-2/)
 * 安裝/編譯 Intel 最佳化版本: [Intel® Optimization for TensorFlow* Installation Guide | Intel® Software](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
 * [Data Flair | Tensorflow Tutorial](https://data-flair.training/blogs/tensorflow-tutorial/)
-* 教學 [2018 CS20SI - Stanford University: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
-* 教學 [Applied Deep Learning with TensorFlow and Google Cloud AI](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781788621601)
+* 教學 [Udemy | Complete Guide to TensorFlow for Deep Learning with Python](https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/)
+
 
 ###### w/ Scikit-Learn
 
