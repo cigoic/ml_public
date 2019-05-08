@@ -1,6 +1,6 @@
 # Tensorflow 2 範例
 
-可下載站長建立好的 docker 影像檔案來使用 Tensorflow v2.0.0 alpha + Python 3 + Jupyter Lab
+可下載建立好的 docker 影像檔案來使用 Tensorflow v2.0.0 alpha + Python 3 + Jupyter Lab + Go
 
 	$ docker pull eeptman/tfgo:t2.0.0alpha
 
