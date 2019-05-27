@@ -14,36 +14,6 @@ Folers/Files:
 	tfbuild-gpu.sh		- 同上, 編譯 GPU 版 Tensorflow
 
 
-### GPU Usage Note
-
-For Multiple GPUs, Please use the following commends to specify GPU ID:
-
-```
-@Terminal
-Export CUDA_VISIBLE_DEVICES to your shell .rc file. (Do it once!!)
-	$ echo CUDA_VISIBLE_DEVICES=0 >> ~/.bashrc
-
-or 
-	$ CUDA_VISIBLE_DEVICES=0 python <your_script>.py
-```
-
-```
-@Python script
-	import os
-	os.environ['CUDA_VISIBLE_DEVICES'] = str(0)
-```
-
-```
-@Jupyter notebook
-At beginning:
-
-	%env CUDA_VISIBLE_DEVICES=0
-
-At the end: (Release resources)
-
-%%javascript
-Jupyter.notebook.session.delete()
-```
 
 ### RC Files for BASH, VIM
 ### Git
@@ -119,3 +89,51 @@ Jupyter.notebook.session.delete()
 *  Large Movie Review Dataset: http://mng.bz/60nj
 *  Sentiment Labelled Sentences Data Set: http://mng.bz/CzSM
 *  Twitter Sentiment Analysis Dataset: http://mng.bz/2M4d
+
+### Appendix
+
+* Using [Colaboratory – Google](https://research.google.com/colaboratory/local-runtimes.html)
+
+#### Using Docker
+
+* [Docker  |  TensorFlow](https://www.tensorflow.org/install/docker)
+* [Build and run Docker containers leveraging NVIDIA GPUs](https://github.com/NVIDIA/nvidia-docker)
+
+#### Kubernate
+
+* [Install Ubuntu desktop | Ubuntu tutorials](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
+* [Fun with Kubernetes & Tensorflow Serving – ITNEXT](https://itnext.io/fun-with-kubernetes-tensorflow-serving-4fef8d7502b9)
+* [Kubeflow for Poets – Towards Data Science](https://towardsdatascience.com/kubeflow-for-poets-a05a5d4158ce)
+
+#### GPU Usage Note
+
+* [GPU support  |  TensorFlow](https://www.tensorflow.org/install/gpu)
+
+For Multiple GPUs, Please use the following commends to specify GPU ID:
+
+```
+@Terminal
+Export CUDA_VISIBLE_DEVICES to your shell .rc file. (Do it once!!)
+	$ echo CUDA_VISIBLE_DEVICES=0 >> ~/.bashrc
+
+or 
+	$ CUDA_VISIBLE_DEVICES=0 python <your_script>.py
+```
+
+```
+@Python script
+	import os
+	os.environ['CUDA_VISIBLE_DEVICES'] = str(0)
+```
+
+```
+@Jupyter notebook
+At beginning:
+
+	%env CUDA_VISIBLE_DEVICES=0
+
+At the end: (Release resources)
+
+%%javascript
+Jupyter.notebook.session.delete()
+```
