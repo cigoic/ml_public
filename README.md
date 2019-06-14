@@ -32,6 +32,7 @@ Folers/Files:
 
 ### Tensorflow 2.x
 
+* 教學 [Google | TensorFlow 2.0 Beta](https://www.tensorflow.org/beta/)
 * 教學 [Udacity | Tensorflow free course](https://classroom.udacity.com/courses/ud187)
 * 教學 [Coursera | Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
 * 教學 [Coursera | Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
