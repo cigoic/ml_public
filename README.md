@@ -32,10 +32,9 @@ Folers/Files:
 
 ### Tensorflow 2.x
 
+* 教學 [Coursera | TensorFlow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice)
 * 教學 [Google | TensorFlow 2.0 Beta](https://www.tensorflow.org/beta/)
 * 教學 [Udacity | Tensorflow free course](https://classroom.udacity.com/courses/ud187)
-* 教學 [Coursera | Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
-* 教學 [Coursera | Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
 
 ### Tensorflow 1.x
 
@@ -73,7 +72,7 @@ Folers/Files:
 
 ### Study Plan for a beginner
 
-* Get familiar with Python, Numpy, Pandas, Matplotlib and Kaggle. ==> Start from [Offical Kaggle Tutor series](https://www.kaggle.com/learn/overview).
+* [Kaggle | Faster Data Science Education](https://www.kaggle.com/learn/overview).
 * [JupyterNotebook - Pandas Tutor](https://github.com/ageron/handson-ml/blob/master/tools_pandas.ipynb)
 * [JupyterNotebook - Numpy Tutor](https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb)
 * [JupyterNotebook - Matplotlib Tutor](https://github.com/ageron/handson-ml/blob/master/tools_matplotlib.ipynb)
