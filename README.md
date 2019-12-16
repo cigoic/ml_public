@@ -8,6 +8,9 @@ Folers/Files:
 	src_samples		- 內有各式 Neural Network 模型範例
 	  |
 	  >> tf2		- 適用於 Tensorflow 2.0 的範例
+	src_coursera		- Coursera Online courses assigments' reference answers.
+	  |
+	  >> tf_data_and_deployment	- TensorFlow: Data and Deployment Specialization
 	basics_of_ml.ipynb	- 解說機器學習的基本觀念
 	about_tensorflow.ipynb	- 簡述 Tensorflow 基本知識
 	tfbuild.sh 		- 用於自動編譯 Tensorflow source code for Mac, 可去除不支援處理器命令集的警告提示。
