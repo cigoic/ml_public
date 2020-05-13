@@ -5,18 +5,18 @@ Content
 
 Folers/Files:
 
-	src_samples		- 內有各式 Neural Network 模型範例
-	  |
-	  >> tf2		- 適用於 Tensorflow 2.0 的範例
-	src_coursera		- Coursera Online courses assigments' reference answers.
-	  |
-	  >> tf_data_and_deployment	- TensorFlow: Data and Deployment Specialization
-	basics_of_ml.ipynb	- 解說機器學習的基本觀念
-	about_tensorflow.ipynb	- 簡述 Tensorflow 基本知識
-	requirements.txt	- Python3 Packages for Flask, Numpy, Scipy, Matplot
-	requirements-tfjs.txt	- Python3 Packages for TensorFlow, Flask, Scikit-Learn
-	tfbuild.sh 		- 用於自動編譯 Tensorflow source code for Mac, 可去除不支援處理器命令集的警告提示。
-	tfbuild-gpu.sh		- 同上, 編譯 GPU 版 Tensorflow
+|  路徑  |  內容敘述  |
+| --- | --- |
+|  src_samples  |  內有各式 Neural Network 模型範例  |
+|  >> tf2  |  適用於 Tensorflow 2.0 的範例  |
+|  src_coursera  |  Coursera Online courses assigments' reference answers.  |
+|  >> tf_data_and_deployment  |  TensorFlow: Data and Deployment Specialization  |
+|  basics_of_ml.ipynb  |  解說機器學習的基本觀念  |
+|  about_tensorflow.ipynb  |  簡述 Tensorflow 基本知識  |
+|  requirements.txt |  Python3 Packages for Flask, Numpy, Scipy, Matplot  |
+|  requirements-tfjs.txt  |  Python3 Packages for TensorFlow, Flask, Scikit-Learn  |
+|  tfbuild.sh  |  用於自動編譯 Tensorflow source code for Mac, 可去除不支援處理器命令集的警告提示。  |
+|	tfbuild-gpu.sh | 同上, 編譯 GPU 版 Tensorflow |
 
 
 
@@ -29,35 +29,40 @@ Folers/Files:
 
 * 交通大學開放式課程 - 管理學院 - 唐麗英 - [統計學(一)：基礎統計學](http://ocw.nctu.edu.tw/course_detail.php?bgid=3&gid=0&nid=454)
 * 交通大學開放式課程 - 管理學院 - 唐麗英 - [統計學(二)：進階統計](http://ocw.nctu.edu.tw/course_detail.php?bgid=3&gid=0&nid=511)
+* Udemy | [Statistics for Data Science and Business Analysis 365 Careers](https://www.udemy.com/share/101tI6A0QfcV5UTXg=/)
 
 ### Python
 
-* [Kaggle | Learn Python Challenge series](https://www.kaggle.com/colinmorris/learn-python-challenge-day-5)
-* [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
+* Kaggle | [Learn Python Challenge series](https://www.kaggle.com/colinmorris/learn-python-challenge-day-5)
+* Kaggle | [Kaggle's Official Tutor series- Hands-On Data Science Education](https://www.kaggle.com/learn/overview)
 
-### Tensorflow 2.x
+### TensorFlow 2.x/Lite/JS/Swift
 
-* 教學 [Coursera | TensorFlow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice)
-* 教學 [Google | TensorFlow 2.0 Beta](https://www.tensorflow.org/beta/)
-* 教學 [Udacity | Tensorflow free course](https://classroom.udacity.com/courses/ud187)
+* Google | [TensorFlow 2](https://www.tensorflow.org/)
+* Udacity | [Tensorflow free course](https://classroom.udacity.com/courses/ud187)
+* Coursera | [TensorFlow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice)
+* Coursera | [TensorFlow: Data and Deployment Specialization, a 4-course specialization by deeplearning.ai](https://www.coursera.org/specializations/tensorflow-data-and-deployment)
 
-### Tensorflow 1.x
+### TensorFlow 1.x
 
-* 教學 [Udemy | Complete Guide to TensorFlow for Deep Learning with Python](https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/)
+* Udemy | [Complete Guide to TensorFlow for Deep Learning with Python](https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/)
 * [Data Flair | Tensorflow Tutorial](https://data-flair.training/blogs/tensorflow-tutorial/)
 
 ###### w/ Scikit-Learn (Optional)
 
-* Book [O'Reilly | Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do)
-	* [GitHub (相當實用的範例)](https://github.com/ageron/handson-ml)
+* Book [O'Reilly | Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2/E](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+	* [GitHub (實用範例)](https://github.com/ageron/handson-ml)
 
 ### Machine Learning
 
+* Coursera | [AI For EveryOne](https://www.coursera.org/learn/ai-for-everyone)
+* Kaggle | [Learn - Faster Data Science Education](https://www.kaggle.com/learn)
+* IBM | [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python)
 * Coursera | [Machine Learning](https://www.coursera.org/learn/machine-learning)
 * Coursera | [Deep Learning](https://www.coursera.org/specializations/deep-learning)
-* [Google - Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
-* [Google 數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
-* [Bloomberg 機器學習視訊課程](https://bloomberg.github.io/foml/)
+* Google | [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+* Google | [數位學程](https://learndigital.withgoogle.com/digitalgarage-tw)
+* Bloomberg | [機器學習視訊課程](https://bloomberg.github.io/foml/)
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
 
 ###### @Google Cloud Platfrom (GCP)
