@@ -55,6 +55,7 @@ Folers/Files:
 
 ### Machine Learning
 
+* TensorFlow | [ML Zero to Hero](https://youtu.be/KNAWp2S3w94)
 * Coursera | [AI For EveryOne](https://www.coursera.org/learn/ai-for-everyone)
 * Kaggle | [Learn - Faster Data Science Education](https://www.kaggle.com/learn)
 * IBM | [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python)
