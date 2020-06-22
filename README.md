@@ -31,6 +31,15 @@ Folers/Files:
 * 交通大學開放式課程 - 管理學院 - 唐麗英 - [統計學(二)：進階統計](http://ocw.nctu.edu.tw/course_detail.php?bgid=3&gid=0&nid=511)
 * Udemy | [Statistics for Data Science and Business Analysis 365 Careers](https://www.udemy.com/share/101tI6A0QfcV5UTXg=/)
 
+
+### Linear Algebra 線性代數
+
+[直覺式影片解說 - Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+### Calculus 微積分
+
+[直覺式影片解說 - Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
 ### Python
 
 * Kaggle | [Learn Python Challenge series](https://www.kaggle.com/colinmorris/learn-python-challenge-day-5)
@@ -38,10 +47,19 @@ Folers/Files:
 
 ### TensorFlow 2.x/Lite/JS/Swift
 
-* Google | [TensorFlow 2](https://www.tensorflow.org/)
+Basics
+
 * Udacity | [Tensorflow free course](https://classroom.udacity.com/courses/ud187)
 * Coursera | [TensorFlow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice)
+
+Advances
+
 * Coursera | [TensorFlow: Data and Deployment Specialization, a 4-course specialization by deeplearning.ai](https://www.coursera.org/specializations/tensorflow-data-and-deployment)
+
+Appendix
+
+* Google | [TensorFlow 2](https://www.tensorflow.org/)
+* [TensorFlow, Keras and deep learning without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/)
 
 ### TensorFlow 1.x
 
@@ -67,6 +85,7 @@ Folers/Files:
 * [Deep Learning Resources](https://cigoic.wordpress.com/2017/07/28/deep-learning-resources/)
 
 ###### @Google Cloud Platfrom (GCP)
+
 * Coursera | [Machine Learning with TensorFlow on Google Cloud Platform] (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 * Coursera | [Advanced Machine Learning with TensorFlow on Google Cloud Platform](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)
 * Coursera | [Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning)
