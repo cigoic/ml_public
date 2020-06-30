@@ -30,7 +30,7 @@ Folers/Files:
 * 交通大學開放式課程 - 管理學院 - 唐麗英 - [統計學(一)：基礎統計學](http://ocw.nctu.edu.tw/course_detail.php?bgid=3&gid=0&nid=454)
 * 交通大學開放式課程 - 管理學院 - 唐麗英 - [統計學(二)：進階統計](http://ocw.nctu.edu.tw/course_detail.php?bgid=3&gid=0&nid=511)
 * Udemy | [Statistics for Data Science and Business Analysis 365 Careers](https://www.udemy.com/share/101tI6A0QfcV5UTXg=/)
-
+* [freeCodeCamp | Statistics in 8 hrs](https://youtu.be/xxpc-HPKN28)
 
 ### Linear Algebra 線性代數
 
@@ -39,6 +39,10 @@ Folers/Files:
 ### Calculus 微積分
 
 [直覺式影片解說 - Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
+### Data Science
+
+[freeCodeCamp | Learn Data Science Tutorial in 6 hrs](https://youtu.be/ua-CiDNNj30)
 
 ### Python
 
@@ -68,6 +72,7 @@ Appendix
 
 ###### w/ Scikit-Learn (Optional)
 
+* [freeCodeCamp | Machine Learning with Scikit-Learn --- Full Course](https://www.freecodecamp.org/news/machine-learning-with-scikit-learn-full-course/)
 * Book [O'Reilly | Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2/E](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 	* [GitHub (實用範例)](https://github.com/ageron/handson-ml)
 
@@ -167,3 +172,7 @@ At the end: (Release resources)
 %%javascript
 Jupyter.notebook.session.delete()
 ```
+
+#### DevOps
+
+* [freeCodeCamp | Prerequisites Course](https://www.freecodecamp.org/news/devops-prerequisites-course/)
