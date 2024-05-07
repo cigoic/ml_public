@@ -71,7 +71,7 @@ tensorflow-metadata==0.21.1
 tensorflow-serving-api==2.1.0
 tensorflowjs==1.5.2
 termcolor==1.1.0
-tqdm==4.45.0
+tqdm==4.66.3
 update==0.0.1
 urllib3==1.26.18
 wcwidth==0.1.7
